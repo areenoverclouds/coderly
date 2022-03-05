@@ -5,6 +5,12 @@
 .row_content {
   margin: 150px 0px 100px;
 }
+@media only screen and (max-width: 600px) {
+  .row_content {
+    margin: 80px 0px 70px;
+  }
+}
+
 
 .name_heading {
   background: black;
@@ -14,7 +20,12 @@
 
 @media only screen and (max-width: 600px) {
   .name_heading {
-    font-size: 20px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aboutus-col{
+    justify-content: center;
   }
 }
 
@@ -38,7 +49,7 @@
 
 @media only screen and (max-width: 600px) {
   .download_btn {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
